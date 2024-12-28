@@ -1,1 +1,7 @@
 build/
+*.zip
+opencv-4.10.0
+opencv_contrib-4.10.0
+opencv/opencv_contrib-4.10.0.zip
+*.wasm
+processors/facedetectyn/facedetectyn.wasm
