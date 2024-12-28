@@ -151,7 +151,7 @@ func run(cCtx *cli.Context) error {
 		r.Refs.Set(frame.ID.Unwrap(), frame)
 
 		i++
-		slog.Info(fmt.Sprintf("Read frame %d", i))
+		//slog.Info(fmt.Sprintf("Read frame %d", i))
 
 		frame = r.Process(ctx, frame)
 
